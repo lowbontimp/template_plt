@@ -32,3 +32,22 @@ $ps .= `psxy -R$rop -J$jop -K -T -P -Xc -Yc` ;
 $ps .= `psxy -R$rop -J$jop -O -T -P` ;
 
 print $ps ;
+
+sub colors {
+  my ($input)=@_ ;
+  my @colors ;
+  $colors[0] = "220/20/60" ; #crimson
+  $colors[1] = "154/205/50" ; #yellow green
+  $colors[2] = "32/178/170" ; #sea green
+  #$colors[3] = "160/82/45" ; #brown
+  $colors[3] = "244/164/96" ; #brown
+  $colors[4] = "176/196/222" ; #light blue
+  $colors[5] = "238/130/238" ; #violeta
+  $colors[6] = "123/104/238" ;
+  $colors[7] = "60/179/113" ;
+  #$colors[7] = "0" ;
+  $colors[8] = "86" ;
+  $colors[9] = "172" ;
+  $colors[10] = "255" ;
+  return $colors[$input] ;
+}
