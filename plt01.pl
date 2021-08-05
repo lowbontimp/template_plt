@@ -20,6 +20,7 @@ use warnings ;
 `gmtset CHAR_ENCODING Standard+` ;
 `gmtset DEGREE_SYMBOL degree` ;
 `gmtset LABEL_OFFSET 0.1c` ;
+`gmtset TICK_LENGTH -0.3c` ;
 
 my $rop = "" ;
 my $jop = "X7c" ;
