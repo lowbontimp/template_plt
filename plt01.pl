@@ -21,8 +21,6 @@ use warnings ;
 `gmtset DEGREE_SYMBOL degree` ;
 `gmtset LABEL_OFFSET 0.1c` ;
 
-#grdimage tmp.grd -JX10c -C01.cpt -B -P -Xc -Yc> tmp.ps
-
 my $rop = "" ;
 my $jop = "X7c" ;
 
